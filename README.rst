@@ -32,35 +32,36 @@ Add ``medialog.xdvsubskins`` to your ``plone.recipe.zope2instance`` section's *e
         …
         medialog.xdvsubskins
 
+
+Install medialog.subskins
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Install medialog.subskins from the add-ons control panel
+
+
+
 Select theme
 ~~~~~~~~~~~~
+Select and enable the theme from the Diazo control panel. 
 
-Select and enable the theme from the Diazo control panel. That's it!
+
+Configure layout
+~~~~~~~~~~~~~~~~~~~~~~~~
+Click the subskins control panel at top right (twice if your site is not in debug mode) and select your layout.
+You can also click the "manage-viewlets" link an hide / show / move viewlets (there are a few hidden by default)
+
+
 
 Help
 ----
 
-Obviously there is more work to be done. If you want to help, pull requests accepted! Some ideas:
+Obviously there is more work to be done. If you want to help, pull requests accepted! 
 
-* Add a diazo rule to import Plone editing styles
-* Configure styles to use portal_css
-* Add quick installer support
-* Improve styles 
+
+
 
 Authors
 -------
 
-This product was developed by espen Moe-Nilssen.
+This product was developed by Espen Moe-Nilssen.
 
 
-License
--------
-
-The author is not a "license guy", but the earthlingtwo theme is distributed via CC 3.0 license [1]_ and this package is GPL version 2 (assuming that makes sense).
-
-.. _`earthlingtwo`: http://www.freecsstemplates.org/preview/earthlingtwo/
-.. _`plone.app.theming`: http://pypi.python.org/pypi/plone.app.theming
-.. _`Plone 4.1`: http://pypi.python.org/pypi/Plone/4.1rc2
-.. _`CSS Templates`: http://www.freecsstemplates.org/
-
-.. [1] http://www.freecsstemplates.org/license/
