@@ -1,0 +1,10 @@
+<configure
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns="http://namespaces.zope.org/zope">
+
+    <plone:static
+        name="xdvsubskins"
+        directory="files" type="theme" />
+
+</configure>
