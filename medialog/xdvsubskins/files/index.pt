@@ -6,12 +6,13 @@ Description: A theme for using subskins with plone.app.theming.
 Version    : 0.1
 Released   : 20112911
 -->
+
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:tal="http://xml.zope.org/namespaces/tal"
       xmlns:metal="http://xml.zope.org/namespaces/metal">
 <head>
  
-  <link type="text/css" rel="stylesheet" media="all" href="" tal:attributes="href $css_file" / >
+  <link type="text/css" rel="stylesheet" media="all" href="" tal:attributes="href css_file" / >
   
 <meta name="keywords" content="" />
 <meta name="description" content="" />

@@ -4,7 +4,7 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <theme href="index.pt" css:if-content="#visual-portal-wrapper"  />
+    <theme href="index.html" css:if-content="#visual-portal-wrapper"  />
 
     <!--Head-->
     <copy css:content="html" css:theme="html" attributes="lang dir" />
