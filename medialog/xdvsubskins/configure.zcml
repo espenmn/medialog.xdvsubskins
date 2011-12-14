@@ -1,10 +1,19 @@
 <configure
     xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns="http://namespaces.zope.org/zope">
 
     <plone:static
         name="xdvsubskins"
         directory="files" type="theme" />
+
+   <genericsetup:registerProfile
+      name="default"
+      title="xdvsubskins"
+      directory="profiles/default"
+      description='"xdvsubskins" Plone theme and theming tool.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
 
 </configure>

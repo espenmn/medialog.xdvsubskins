@@ -8,3 +8,4 @@ medialog.xdvsubskins.egg-info/entry_points.txt
 medialog.xdvsubskins.egg-info/namespace_packages.txt
 medialog.xdvsubskins.egg-info/requires.txt
 medialog.xdvsubskins.egg-info/top_level.txt
+medialog/xdvsubskins/__init__.py
