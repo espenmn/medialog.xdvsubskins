@@ -11,10 +11,21 @@
     <copy css:content="head base" css:theme="head base" />
     <replace css:content="head title" css:theme="head title" />
     <before css:content="head style, head link, head script, head meta" css:theme-children="head" />
-
+    
+    <!--These lines loads  '?css_file=mycssfile.css' in request -->
+    
+    <append css:theme="head" if-not="$css_file='' " >
+       <link type="text/css" rel="stylesheet" media="all" href="{$css_file}"  />
+    </append>
+    
+    <append css:theme="head" if="$css_file='' " >
+       <link type="text/css" rel="stylesheet" media="all" href="composite1.css"  />
+    </append>
     
     <!--Content-->
     <replace css:content="#portal-top" css:theme="#top" />
     <replace css:content="#portal-columns" css:theme="#content" />
     <replace css:content="#portal-footer" css:theme="#footer" />
+    <p>hallod</p>
+
 </rules>
