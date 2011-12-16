@@ -18,16 +18,20 @@
        <link type="text/css" rel="stylesheet" media="all" href="{$css_file}"  />
     </append>
     
-    <!--Content-->
-    
-    
+    <!--top-->
     <append css:theme="#portal-header" css:content="#portal-siteactions" />
     <append css:theme="#portal-header" css:content="#portal-searchbox" />
     <append css:theme="#portal-header" css:content="#portal-logo" />
     <append css:theme="#portal-header" css:content="#portal-globalnav" />
     <append css:theme="#portal-header" css:content="#portal-personaltools-wrapper" />
     <append css:theme="#portal-header" css:content="#portal-breadcrumbs" />
+    
+    <!-- content -->
+    <append css:theme="#portal-columns" css:content="#portal-columns" />
 
+    <!-- bottom -->
+    <append css:theme="#portal-footercolophon" css:content="#portal-footer" />
+    <append css:theme="#portal-footercolophon" css:content="#portal-colophon" />
      
     <!--Hiding the original content-->
     <drop css:theme="#my-visual-portal-wrapper" />
